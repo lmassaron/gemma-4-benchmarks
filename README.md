@@ -1,4 +1,4 @@
-# Gemma 4 Official Performance Benchmarks
+# Gemma 4 DGX Spark Performance Benchmarks
 
 This repository contains the official performance benchmarks and capability demonstrations for the **Gemma 4** model family (E2B, E4B, 26B-A4B MoE, and 31B). 
 
@@ -16,7 +16,7 @@ The tests were conducted on a **DGX Spark** system (NVIDIA GB10, 121GB VRAM) usi
 | **Vision (Multimodal)** | 27.69 | 15.67 | 12.24 | ~3.4 |
 | **Function Calling** | 28.76 | 16.10 | 11.55 | ~3.4 |
 
-## 📂 Repository Structure
+## Repository Structure
 
 ### Core Scripts
 *   **`gemma4_benchmark_master.py`**: The unified benchmark engine. It handles model loading (official HF paths), automated testing across 7 capability pillars, and auto-generates demonstration notebooks.
@@ -31,7 +31,7 @@ The tests were conducted on a **DGX Spark** system (NVIDIA GB10, 121GB VRAM) usi
 *   **`moe_investigation.md`**: A technical deep-dive into how the official weights resolved previous MoE architectural bottlenecks.
 *   **`medium_article.md`**: A full-length article summarizing the market impact and technical takeaways of the Gemma 4 series.
 
-## 🛠️ Installation
+## Installation
 
 1.  **Ensure you have `uv` installed** (or the script will attempt to install it for you).
 2.  **Run the installation script**:

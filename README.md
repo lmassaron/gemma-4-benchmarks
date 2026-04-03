@@ -4,7 +4,7 @@ This repository contains the official performance benchmarks and capability demo
 
 The tests were conducted on a **DGX Spark** system (NVIDIA GB10, 121GB VRAM) using the official optimized weights and `transformers` v5.5.0. These results demonstrate the resolution of early-access bottlenecks, particularly the "MoE Paradox," where the sparse 26B model now significantly outperforms the 31B dense model.
 
-![Gemma 4 Visual Guide](visual_gemma.jpeg)
+![Gemma 4 Visual Guide](images/visual_gemma.jpeg)
 > Source: [A Visual Guide to Gemma 4](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-gemma-4)
 
 ## Key Results

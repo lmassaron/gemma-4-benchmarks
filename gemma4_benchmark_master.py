@@ -213,16 +213,16 @@ def run_benchmark(model_id):
     print(f"  TPS: {tps:.2f}")
 
     # 4. Vision Single
-    if os.path.exists("image.jpg"):
+    if os.path.exists("images/image.jpg"):
         print("Running Vision Single...")
-        img = [Image.open("image.jpg")]
+        img = [Image.open("images/image.jpg")]
         ans, tps = generate(SINGLE_IMG_PROMPT, imgs=img)
         results["metrics"]["vision_single_tps"] = tps
         results["answers"]["vision_single"] = ans
         print(f"  TPS: {tps:.2f}")
 
     # 5. Vision Multi
-    img_paths = ["image_0.jpg", "image_1.jpg", "image_2.jpg"]
+    img_paths = ["images/image_0.jpg", "images/image_1.jpg", "images/image_2.jpg"]
     if all(os.path.exists(p) for p in img_paths):
         print("Running Vision Multi...")
         imgs = [Image.open(p) for p in img_paths]

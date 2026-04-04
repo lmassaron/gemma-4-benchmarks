@@ -11,10 +11,10 @@ The tests were conducted on a **DGX Spark** system (NVIDIA GB10, 121GB VRAM) usi
 
 | Task | E2B-it (TPS) | E4B-it (TPS) | 26B-A4B MoE (TPS) | 31B Dense (TPS) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Text Generation** | 28.00 | 15.69 | 12.52 | 3.41 |
-| **Thinking Mode (CoT)**| 28.73 | 15.93 | 12.48 | ~3.4 |
-| **Vision (Multimodal)** | 27.69 | 15.67 | 12.24 | ~3.4 |
-| **Function Calling** | 28.76 | 16.10 | 11.55 | ~3.4 |
+| **Text Generation** | 28.00 | 15.69 | 12.52 | 3.33 |
+| **Thinking Mode (CoT)**| 28.73 | 15.93 | 12.48 | 3.40 |
+| **Vision (Multimodal)** | 27.69 | 15.67 | 12.24 | 3.40 |
+| **Function Calling** | 28.76 | 16.10 | 11.55 | 3.44 |
 
 ## Repository Structure
 

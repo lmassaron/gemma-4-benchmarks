@@ -23,11 +23,11 @@ The evaluation suite focused on four critical pillars of the Gemma 4 architectur
 
 | Task | E2B-it | E4B-it | 26B-A4B-it (MoE) | 31B-it |
 | :--- | :--- | :--- | :--- | :--- |
-| Text Generation (Single) | 25.76 | 15.01 | 9.68 | 3.41 |
-| Text Generation (Batch) | 28.00 | 15.69 | 12.52 | ~3.4 |
-| Thinking Mode (CoT) | 28.73 | 15.93 | 12.48 | ~3.4 |
-| Vision (Single Image) | 27.69 | 15.67 | 12.24 | ~3.4 |
-| Function Calling | 28.76 | 16.10 | 11.55 | ~3.4 |
+| Text Generation (Single) | 25.76 | 15.01 | 9.68 | 3.33 |
+| Text Generation (Batch) | 28.00 | 15.69 | 12.52 | 3.40 |
+| Thinking Mode (CoT) | 28.73 | 15.93 | 12.48 | 3.40 |
+| Vision (Single Image) | 27.69 | 15.67 | 12.24 | 3.22 |
+| Function Calling | 28.76 | 16.10 | 11.55 | 3.44 |
 
 ## Critical Observations & Market Analysis
 
